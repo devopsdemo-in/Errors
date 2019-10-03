@@ -1,0 +1,5 @@
+if sonarqube is not starting then follow the below steps 
+
+sudo chmod 2777 -R sonarqube-7.6
+
+set SGID permissions to sonarqube directory

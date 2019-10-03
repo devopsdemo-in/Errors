@@ -1,0 +1,10 @@
+if Jenkins is not starting follow the below steps 
+alternatives --config java
+give 1 number
+
+alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_212/bin/jar 2
+alternatives --install /usr/bin/java java /opt/jdk1.8.0_212/bin/java 2
+alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_212/bin/javac 2
+alternatives --set jar /opt/jdk1.8.0_212/bin/jar
+alternatives --set javac /opt/jdk1.8.0_212/bin/javac
+alternatives --set java /opt/jdk1.8.0_212/bin/java
