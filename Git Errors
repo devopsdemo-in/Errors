@@ -1,0 +1,11 @@
+$ git push origin feature1 
+remote: Permission to GayathriDevops/ingmortgage.git denied to UppuSravya. 
+fatal: unable to access 'https://github.com/GayathriDevops/ingmortgage.git/': 
+The requested URL returned error: 403
+
+403 indicates "The server understood the request, but is refusing to authorize it."
+
+follow the below steps to resolve this issue:
+go to Credential Manager>>Windows Credentials and remove github credential
+
+once the above credential is removed you will be able to push to remote repository
